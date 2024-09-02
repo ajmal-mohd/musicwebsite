@@ -69,6 +69,7 @@
 
 .main-flex{
     padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .brand{
@@ -91,3 +92,91 @@
       
 }
 
+img{
+    max-width: 100%;
+}
+
+
+.margin-const{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.list-div{
+
+    /* border: 1px solid black; */
+  
+    height: 55vh;
+    overflow: scroll;
+}
+
+.list-div::-webkit-scrollbar{
+    display: none;
+}
+
+
+.music-item{
+    /* border: 1px solid; */
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 4px 4px 8px rgba(135, 206, 250, .4);
+    background-color:#e9e4ed;
+    border-bottom: 1px solid #a3a1a6;
+    gap: 20px;
+}
+
+
+
+
+.music-item img{
+    max-width: 60px;
+}
+
+
+.music-flex{
+
+    display: flex;
+    /* border: 1px solid; */
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.6);
+    border-radius: 8px;     
+}
+
+
+ h3{
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+
+
+
+ }
+      
+
+ p{
+    
+  color: #5b585e;
+  font-size: 13px;
+  font-weight: 400;
+ }
+
+
+ .detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+ }
+
+
+
+
+ .image-view {
+
+    max-width: 100px;
+ }
