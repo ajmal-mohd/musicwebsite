@@ -109,6 +109,7 @@ img{
   
     height: 55vh;
     overflow: scroll;
+    flex: 1;
 }
 
 .list-div::-webkit-scrollbar{
@@ -174,6 +175,9 @@ img{
  }
 
 
+ .show-div{
+    flex: 2;
+ }
 
 
  .image-view {

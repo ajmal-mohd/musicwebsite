@@ -33,6 +33,7 @@ async function fetchData() {
         <div class="detail">
             <h3 class="margin-const">${values.track}</h3>
         <p class="margin-const">${values.artist}</>
+       
           
 
         </div>
@@ -64,6 +65,7 @@ fetchData()
   let allData=[]
 
   let head=document.querySelector(".image-view")
+  let hello=document.querySelector(".hello")
   
  async function show(id){
     console.log(id, "show");
@@ -72,7 +74,8 @@ fetchData()
      allData= await response.json()
   
      head.innerHTML = `<img src="${allData.albumCover}" alt="Album Cover">`;
-  
+     hello.innerHTML=   ` <audio  controls >   <source src=" ${allData.file}"> type="audio/mpeg"  </audio>`
+    
         
 
 
